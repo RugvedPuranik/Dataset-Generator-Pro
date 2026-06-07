@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# Generated datasets
+generated/
+
+# Windows system files
+desktop.ini
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Excel temporary files
+~$*.xlsx

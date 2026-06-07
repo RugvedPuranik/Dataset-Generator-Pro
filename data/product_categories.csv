@@ -1,0 +1,260 @@
+﻿Category,Product
+Furniture,Office Chair
+Furniture,Study Table
+Furniture,Sofa
+Furniture,Bookshelf
+Furniture,Dining Table
+Furniture,Coffee Table
+Furniture,Recliner Chair
+Furniture,Wardrobe
+Furniture,TV Unit
+Furniture,Bed Frame
+Furniture,Computer Desk
+Furniture,Shoe Rack
+Furniture,Cabinet
+Furniture,Drawer Unit
+Furniture,Conference Table
+Furniture,Reception Desk
+Furniture,Bar Stool
+Furniture,Bean Bag
+Furniture,Side Table
+Furniture,Filing Cabinet
+Furniture,Wooden Bench
+Furniture,Cupboard
+Furniture,Dressing Table
+Furniture,Bunk Bed
+Furniture,Lounge Chair
+,
+Office Supplies,Pen
+Office Supplies,Notebook
+Office Supplies,Stapler
+Office Supplies,File Folder
+Office Supplies,Calculator
+Office Supplies,Marker
+Office Supplies,Whiteboard
+Office Supplies,Paper Ream
+Office Supplies,Sticky Notes
+Office Supplies,Envelope Pack
+Office Supplies,Highlighter
+Office Supplies,Paper Clips
+Office Supplies,Binder
+Office Supplies,Punch Machine
+Office Supplies,Correction Tape
+Office Supplies,Desk Organizer
+Office Supplies,Label Printer
+Office Supplies,Clipboard
+Office Supplies,Scissors
+Office Supplies,Glue Stick
+Office Supplies,Printer Ink
+Office Supplies,Toner Cartridge
+Office Supplies,Register Book
+Office Supplies,Writing Pad
+Office Supplies,Rubber Stamp
+,
+Electronics,Laptop
+Electronics,Keyboard
+Electronics,Mouse
+Electronics,Headphones
+Electronics,Monitor
+Electronics,Printer
+Electronics,Scanner
+Electronics,Webcam
+Electronics,Projector
+Electronics,Tablet
+Electronics,Desktop PC
+Electronics,External Hard Drive
+Electronics,USB Drive
+Electronics,Power Bank
+Electronics,Router
+Electronics,Smartphone
+Electronics,Bluetooth Speaker
+Electronics,Microphone
+Electronics,UPS
+Electronics,Graphics Tablet
+Electronics,Smart Watch
+Electronics,Docking Station
+Electronics,Network Switch
+Electronics,Server Unit
+Electronics,SSD Drive
+,
+Grocery,Rice Bags
+Grocery,Cooking Oil
+Grocery,Sugar
+Grocery,Snacks
+Grocery,Juice Pack
+Grocery,Wheat Flour
+Grocery,Salt
+Grocery,Tea Powder
+Grocery,Coffee Powder
+Grocery,Biscuits
+Grocery,Pulses
+Grocery,Spices
+Grocery,Noodles
+Grocery,Pasta
+Grocery,Breakfast Cereal
+Grocery,Milk Powder
+Grocery,Dry Fruits
+Grocery,Soft Drinks
+Grocery,Pickles
+Grocery,Jam
+Grocery,Honey
+Grocery,Tomato Ketchup
+Grocery,Chocolate
+Grocery,Soap
+Grocery,Detergent
+,
+Sports Equipment,Cricket Bat
+Sports Equipment,Cricket Ball
+Sports Equipment,Football
+Sports Equipment,Basketball
+Sports Equipment,Tennis Racket
+Sports Equipment,Badminton Racket
+Sports Equipment,Shuttlecock
+Sports Equipment,Volleyball
+Sports Equipment,Hockey Stick
+Sports Equipment,Goalkeeper Gloves
+Sports Equipment,Skipping Rope
+Sports Equipment,Yoga Mat
+Sports Equipment,Dumbbells
+Sports Equipment,Kettlebell
+Sports Equipment,Resistance Band
+Sports Equipment,Treadmill
+Sports Equipment,Exercise Cycle
+Sports Equipment,Punching Bag
+Sports Equipment,Swimming Goggles
+Sports Equipment,Table Tennis Bat
+Sports Equipment,Carrom Board
+Sports Equipment,Chess Set
+Sports Equipment,Protein Shaker
+Sports Equipment,Sports Jersey
+Sports Equipment,Sports Shoes
+,
+Clothing,T-Shirt
+Clothing,Shirt
+Clothing,Jeans
+Clothing,Trousers
+Clothing,Jacket
+Clothing,Sweatshirt
+Clothing,Hoodie
+Clothing,Kurta
+Clothing,Sherwani
+Clothing,Saree
+Clothing,Salwar Suit
+Clothing,Leggings
+Clothing,Skirt
+Clothing,Dress
+Clothing,Blazer
+Clothing,Track Pants
+Clothing,Shorts
+Clothing,Polo Shirt
+Clothing,Waistcoat
+Clothing,Raincoat
+Clothing,Night Suit
+Clothing,Scarf
+Clothing,Cap
+Clothing,Socks
+Clothing,Gloves
+,
+Footwear,Running Shoes
+Footwear,Formal Shoes
+Footwear,Casual Shoes
+Footwear,Sandals
+Footwear,Slippers
+Footwear,Loafers
+Footwear,Sneakers
+Footwear,Boots
+Footwear,Heels
+Footwear,Flats
+Footwear,Sports Shoes
+Footwear,Canvas Shoes
+Footwear,Leather Shoes
+Footwear,School Shoes
+Footwear,Safety Shoes
+Footwear,Flip Flops
+Footwear,Moccasins
+Footwear,Wedges
+Footwear,Ankle Boots
+Footwear,Clogs
+Footwear,Walking Shoes
+Footwear,Party Shoes
+Footwear,Ethnic Footwear
+Footwear,Slip Ons
+Footwear,Trekking Shoes
+,
+Books,Novel
+Books,Science Textbook
+Books,Math Textbook
+Books,History Book
+Books,Geography Atlas
+Books,Dictionary
+Books,Encyclopedia
+Books,Comic Book
+Books,Biography
+Books,Autobiography
+Books,Poetry Collection
+Books,Programming Guide
+Books,Data Science Handbook
+Books,Business Book
+Books,Self Help Book
+Books,Cookbook
+Books,Travel Guide
+Books,Art Book
+Books,Photography Book
+Books,Children Story Book
+Books,Exam Preparation Book
+Books,Language Learning Book
+Books,Magazine
+Books,Journal
+Books,Research Paper Collection
+,
+Medical Supplies,Syringe
+Medical Supplies,Stethoscope
+Medical Supplies,Thermometer
+Medical Supplies,Blood Pressure Monitor
+Medical Supplies,Pulse Oximeter
+Medical Supplies,Wheelchair
+Medical Supplies,Crutches
+Medical Supplies,Bandage Roll
+Medical Supplies,Surgical Gloves
+Medical Supplies,Face Mask
+Medical Supplies,Hand Sanitizer
+Medical Supplies,First Aid Kit
+Medical Supplies,IV Set
+Medical Supplies,Cotton Roll
+Medical Supplies,Medical Tape
+Medical Supplies,Nebulizer
+Medical Supplies,ECG Electrodes
+Medical Supplies,Hospital Bed
+Medical Supplies,Digital Weighing Scale
+Medical Supplies,Gauze Pads
+Medical Supplies,Antiseptic Solution
+Medical Supplies,Medicine Tray
+Medical Supplies,Patient Gown
+Medical Supplies,Disposable Cap
+Medical Supplies,Specimen Container
+,
+Kitchen Appliances,Mixer Grinder
+Kitchen Appliances,Microwave Oven
+Kitchen Appliances,Refrigerator
+Kitchen Appliances,Induction Cooktop
+Kitchen Appliances,Toaster
+Kitchen Appliances,Electric Kettle
+Kitchen Appliances,Rice Cooker
+Kitchen Appliances,Air Fryer
+Kitchen Appliances,Dishwasher
+Kitchen Appliances,Water Purifier
+Kitchen Appliances,Juicer
+Kitchen Appliances,Food Processor
+Kitchen Appliances,Coffee Maker
+Kitchen Appliances,Sandwich Maker
+Kitchen Appliances,Gas Stove
+Kitchen Appliances,Chimney
+Kitchen Appliances,Deep Freezer
+Kitchen Appliances,Hand Blender
+Kitchen Appliances,OTG Oven
+Kitchen Appliances,Cookware Set
+Kitchen Appliances,Pressure Cooker
+Kitchen Appliances,Electric Tiffin
+Kitchen Appliances,Ice Maker
+Kitchen Appliances,Vacuum Sealer
+Kitchen Appliances,Popcorn Maker

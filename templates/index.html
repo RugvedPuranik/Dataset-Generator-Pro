@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dataset Generator Pro</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="sidebar">
+
+    <h2>Dataset Generator</h2>
+
+    <ul>
+        <li>🏠 Dashboard</li>
+        <li>🛒 Retail</li>
+        <li>📦 Inventory</li>
+        <li>💰 Sales</li>
+        <li>👨‍💼 HR</li>
+        <li>🏦 Banking</li>
+    </ul>
+
+</div>
+
+
+<div class="main-content">
+
+    <h1>Dataset Generator Pro</h1>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Datasets Generated</h3>
+            <p>{{ stats.datasets_generated }}</p>
+        </div>
+
+        <div class="card">
+            <h3>Total Rows</h3>
+            <p>{{ stats.rows_generated }}</p>
+        </div>
+
+        <div class="card">
+            <h3>Last Dataset</h3>
+            <p>{{ stats.last_dataset }}</p>
+        </div>
+
+    </div>
+
+
+    <div class="generator-form">
+
+        <h2>Generate Dataset</h2>
+
+        <form action="/generate" method="POST">
+
+            <label>Dataset Name</label>
+
+            <input type="text"
+                   name="dataset_name"
+                   value="Retail_Data"
+                   required>
+
+            <label>Rows</label>
+
+            <input type="number"
+                   name="num_rows"
+                   value="1000"
+                   min="1"
+                   required>
+
+            <label>Output Format</label>
+
+            <select name="output_format">
+
+                <option value="csv">
+                    CSV
+                </option>
+
+                <option value="xlsx">
+                    Excel
+                </option>
+
+            </select>
+
+            <label>Error Intensity (%)</label>
+
+            <input
+                type="number"
+                name="error_percentage"
+                value="10"
+                min="0"
+                max="100"
+            >
+
+            <label>Select Columns</label>
+
+            <label class="checkbox-item">
+                <input type="checkbox" id="selectAll" checked>
+                Select All
+            </label>
+
+            <div class="columns-container">
+
+                {% for column in columns %}
+                <label class="checkbox-item">
+                    <input
+                        type="checkbox"
+                        name="columns"
+                        value="{{ column }}"
+                        checked
+                    >
+                    {{ column }}
+                </label>
+                {% endfor %}
+
+            </div>
+
+            <button type="submit" name="dataset_type" value="clean">
+                Generate Clean Dataset
+            </button>
+            <button type="submit" name="dataset_type" value="dirty">
+                Generate Dirty Dataset
+            </button>
+
+        </form>
+
+    </div>
+
+
+    {% if download_file %}
+
+    <div class="download-box">
+
+        <h2>
+            Dataset Generated Successfully
+        </h2>
+
+        <a href="/download/{{ download_file }}"
+        class="download-btn">
+
+            Download Dataset
+
+        </a>
+
+        {% if solution_file %}
+
+        <a href="/download/{{ solution_file }}"
+        class="download-btn">
+
+            Download Clean Solution
+
+        </a>
+
+        {% endif %}
+
+    </div>
+
+    {% endif %}
+
+
+    {% if preview %}
+
+    <div class="preview">
+
+        <h2>Dataset Preview</h2>
+
+        {{ preview|safe }}
+
+    </div>
+
+    {% endif %}
+
+</div>
+
+<script>
+document.getElementById("selectAll").addEventListener("change", function () {
+
+    let checkboxes =
+        document.querySelectorAll(
+            'input[name="columns"]'
+        );
+
+    checkboxes.forEach(cb => {
+        cb.checked = this.checked;
+    });
+
+});
+</script>
+</body>
+</html>
